@@ -1,0 +1,225 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width  {
+    width: 400px;
+    float: left;
+}
+
+/*** HEADER ***/
+header  {
+    background-image: url("../img/hustledesign.jpg");
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+header h1  {
+    font-family: 'Quicksand', serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding: 60px 40px;
+}
+
+nav ul li  {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #bcc6e5;
+    padding-left: 20px;
+}
+
+header h2 {
+  clear: both;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 36px;
+  padding: 40px 0;
+  line-height: 120%;
+}
+
+
+/**** ABOUT ****/
+#about .full-width {
+    padding: 60px 0;
+}
+
+#about  {
+    padding-bottom: 60px;
+}
+
+#about h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+}
+
+#about p  {
+    font-size: 20px;
+    padding-top: 175px;
+    color: #576490;
+}
+
+#about img  {
+  padding-left: 100px;
+}
+
+/*** SKILLS ***/
+#skills .full-width {
+    padding: 85px 0;
+}
+
+#skills {
+    background-color: #e6e6ea;
+    text-align: center;
+    padding-bottom: 115px;
+}
+
+#skills img {
+    padding-bottom: 30px;
+}
+
+#skills h2  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#skills h3  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+    margin: 0 auto;
+}
+
+#skills p  {
+    line-height: 30px;
+    padding: 0 45px;
+    color: #576490;
+}
+
+/*** WORK ***/
+#work .full-width {
+    padding: 85px 0;
+}
+
+#work {
+    text-align: center;
+    padding-bottom: 115px;
+}
+
+#work img {
+    margin-bottom: 30px;
+    border: solid #c9cad9 5px;
+}
+
+#work h2  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#work h3  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+    margin: 0 auto;
+}
+
+#work p  {
+    line-height: 30px;
+    padding: 0 45px;
+}
+
+#work a {
+    text-decoration: none;
+    color: black;
+}
+
+/*** CONTACT ***/
+#contact  {
+    background-color: #e6e6ea;
+}
+
+#contact .full-width  {
+    padding: 60px 0;
+}
+
+#contact-img  {
+    border: solid #c9cad9 5px;
+}
+
+#contact h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 36px;
+}
+
+#contact #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#email-header{
+    margin: 0 0 10px 0;
+}
+
+#socialmedia-header {
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #576490;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
