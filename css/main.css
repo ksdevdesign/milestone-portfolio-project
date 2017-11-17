@@ -83,7 +83,7 @@ header h2 {
 
 #about p  {
     font-size: 20px;
-    padding-top: 175px;
+    padding-top: 45px;
     color: #576490;
 }
 
@@ -93,13 +93,13 @@ header h2 {
 
 /*** SKILLS ***/
 #skills .full-width {
-    padding: 85px 0;
+    padding: 60px 0;
 }
 
 #skills {
     background-color: #e6e6ea;
     text-align: center;
-    padding-bottom: 115px;
+    padding-bottom: 450px;
 }
 
 #skills img {
@@ -110,7 +110,7 @@ header h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 36px;
     text-align: left;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 #skills h3  {
@@ -125,6 +125,10 @@ header h2 {
     line-height: 30px;
     padding: 0 45px;
     color: #576490;
+}
+
+#skills .bottom-row {
+    padding-top: 30px;
 }
 
 /*** WORK ***/
