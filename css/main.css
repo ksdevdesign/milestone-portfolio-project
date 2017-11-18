@@ -138,7 +138,7 @@ header h2 {
 
 #work {
     text-align: center;
-    padding-bottom: 115px;
+    padding-bottom: 450px;
 }
 
 #work img {
@@ -169,6 +169,10 @@ header h2 {
 #work a {
     text-decoration: none;
     color: black;
+}
+
+#work .bottom-row {
+    padding-top: 30px;
 }
 
 /*** CONTACT ***/
